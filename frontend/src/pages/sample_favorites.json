@@ -1,0 +1,204 @@
+[
+  {
+    "_id": "67e5af4b4344fe1865108e21",
+    "name": "Dark Chocolate Avocado Mousse",
+    "description": "A rich and creamy chocolate dessert that's secretly healthy, made with ripe avocados and dark chocolate.",
+    "image_url": "https://images.unsplash.com/photo-1541783245831-57d6f0d6f9a2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y2hvY29sYXRlJTIwbW91c3NlfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60",
+    "prep_time": 15,
+    "cook_time": 5,
+    "servings": 4,
+    "difficulty": "Easy",
+    "cuisine_type": "American",
+    "meal_type": "Dessert",
+    "ingredients": [
+      "2 ripe avocados",
+      "1/2 cup dark chocolate chips",
+      "1/4 cup cocoa powder",
+      "1/4 cup honey or maple syrup",
+      "1 tsp vanilla extract",
+      "Pinch of salt"
+    ],
+    "instructions": [
+      "Melt the chocolate chips in a microwave-safe bowl in 30-second intervals, stirring between each interval until smooth.",
+      "In a food processor, combine the avocados, melted chocolate, cocoa powder, sweetener, vanilla, and salt.",
+      "Process until completely smooth, scraping down the sides as needed.",
+      "Divide the mousse into serving dishes and refrigerate for at least 2 hours before serving.",
+      "Garnish with fresh berries or a sprinkle of cocoa powder if desired."
+    ],
+    "nutritional_info": {
+      "calories": 280,
+      "protein": 3,
+      "carbs": 25,
+      "fat": 20,
+      "sugar": 18,
+      "fiber": 7,
+      "dietary_tags": [
+        "Gluten-Free",
+        "Dairy-Free",
+        "Vegan"
+      ]
+    },
+    "mood_tags": [
+      "sad",
+      "stressed",
+      "celebratory"
+    ],
+    "rating": 4.8,
+    "review_count": 124
+  },
+  {
+    "_id": "67e5af4a4344fe1865108e1b",
+    "name": "Chocolate Chip Banana Pancakes",
+    "description": "Fluffy pancakes made with ripe bananas and chocolate chips for a sweet breakfast treat.",
+    "image_url": "https://images.unsplash.com/photo-1565299543923-37dd37887442?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8YmFuYW5hJTIwcGFuY2FrZXN8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60",
+    "prep_time": 10,
+    "cook_time": 15,
+    "servings": 4,
+    "difficulty": "Easy",
+    "cuisine_type": "American",
+    "meal_type": "Breakfast",
+    "ingredients": [
+      "2 ripe bananas, mashed",
+      "1 1/2 cups all-purpose flour",
+      "2 tbsp sugar",
+      "2 tsp baking powder",
+      "1/2 tsp salt",
+      "1 cup milk",
+      "2 eggs",
+      "2 tbsp melted butter",
+      "1/2 cup chocolate chips",
+      "Maple syrup for serving"
+    ],
+    "instructions": [
+      "In a large bowl, whisk together flour, sugar, baking powder, and salt.",
+      "In another bowl, mix mashed bananas, milk, eggs, and melted butter.",
+      "Pour the wet ingredients into the dry ingredients and stir until just combined.",
+      "Fold in the chocolate chips.",
+      "Heat a griddle or non-stick pan over medium heat and lightly grease.",
+      "Pour 1/4 cup of batter for each pancake onto the griddle.",
+      "Cook until bubbles form on the surface, then flip and cook until golden brown.",
+      "Serve warm with maple syrup."
+    ],
+    "nutritional_info": {
+      "calories": 320,
+      "protein": 7,
+      "carbs": 48,
+      "fat": 12,
+      "sugar": 22,
+      "fiber": 3,
+      "dietary_tags": [
+        "Vegetarian"
+      ]
+    },
+    "mood_tags": [
+      "happy",
+      "celebratory",
+      "energetic"
+    ],
+    "rating": 4.7,
+    "review_count": 89
+  },
+  {
+    "_id": "67e5af4a4344fe1865108e1c",
+    "name": "Creamy Tomato Basil Soup",
+    "description": "A comforting tomato soup with fresh basil and a touch of cream, perfect for a cozy meal.",
+    "image_url": "https://images.unsplash.com/photo-1547592180-85f173990554?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8dG9tYXRvJTIwc291cHxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60",
+    "prep_time": 15,
+    "cook_time": 30,
+    "servings": 6,
+    "difficulty": "Medium",
+    "cuisine_type": "Italian",
+    "meal_type": "Soup",
+    "ingredients": [
+      "2 tbsp olive oil",
+      "1 onion, chopped",
+      "3 cloves garlic, minced",
+      "2 cans (28 oz each) crushed tomatoes",
+      "2 cups vegetable broth",
+      "1/4 cup fresh basil leaves, chopped",
+      "1 tsp sugar",
+      "1/2 cup heavy cream",
+      "Salt and pepper to taste"
+    ],
+    "instructions": [
+      "Heat olive oil in a large pot over medium heat.",
+      "Add onion and cook until translucent, about 5 minutes.",
+      "Add garlic and cook for another minute.",
+      "Pour in crushed tomatoes and vegetable broth.",
+      "Add sugar, salt, and pepper.",
+      "Bring to a simmer and cook for 20 minutes.",
+      "Stir in chopped basil.",
+      "Use an immersion blender to puree the soup until smooth.",
+      "Stir in heavy cream and heat through without boiling.",
+      "Serve hot with a garnish of fresh basil leaves."
+    ],
+    "nutritional_info": {
+      "calories": 180,
+      "protein": 3,
+      "carbs": 15,
+      "fat": 12,
+      "sugar": 8,
+      "fiber": 3,
+      "dietary_tags": [
+        "Vegetarian",
+        "Gluten-Free"
+      ]
+    },
+    "mood_tags": [
+      "sad",
+      "sick",
+      "tired"
+    ],
+    "rating": 4.6,
+    "review_count": 112
+  },
+  {
+    "_id": "67e5af4b4344fe1865108e1f",
+    "name": "Warm Apple Cinnamon Oatmeal",
+    "description": "A hearty bowl of oatmeal with warm spices and sweet apple chunks, perfect for a comforting breakfast.",
+    "image_url": "https://images.unsplash.com/photo-1517673132405-a56a62b18caf?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8b2F0bWVhbHxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60",
+    "prep_time": 5,
+    "cook_time": 10,
+    "servings": 2,
+    "difficulty": "Easy",
+    "cuisine_type": "American",
+    "meal_type": "Breakfast",
+    "ingredients": [
+      "1 cup rolled oats",
+      "2 cups milk or water",
+      "1 apple, diced",
+      "2 tbsp maple syrup or honey",
+      "1 tsp cinnamon",
+      "1/4 tsp nutmeg",
+      "Pinch of salt",
+      "2 tbsp chopped nuts (optional)"
+    ],
+    "instructions": [
+      "In a saucepan, combine oats, milk or water, and salt.",
+      "Bring to a simmer over medium heat.",
+      "Add diced apple, cinnamon, and nutmeg.",
+      "Cook for 5-7 minutes, stirring occasionally, until oats are tender and mixture has thickened.",
+      "Remove from heat and stir in maple syrup or honey.",
+      "Serve hot, topped with additional apple slices and chopped nuts if desired."
+    ],
+    "nutritional_info": {
+      "calories": 290,
+      "protein": 10,
+      "carbs": 52,
+      "fat": 6,
+      "sugar": 24,
+      "fiber": 7,
+      "dietary_tags": [
+        "Vegetarian",
+        "Dairy-Free"
+      ]
+    },
+    "mood_tags": [
+      "sad",
+      "tired",
+      "relaxed"
+    ],
+    "rating": 4.5,
+    "review_count": 78
+  }
+]

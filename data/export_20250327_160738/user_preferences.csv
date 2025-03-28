@@ -1,0 +1,3 @@
+_id,address,allergies,calorie_goal,dietary_restrictions,favorite_meals,preferred_cuisines,user_id
+67e5a8f6d27a5f1dae615a0c,11,"[""aa""]",1,"[""Vegetarian"", ""Pescatarian""]","[""67e5af4b4344fe1865108e21""]","[""Italian"", ""American""]",67e5a8f4d27a5f1dae615a0b
+67e5a9b8d27a5f1dae615a16,11,[],1,"[""Vegetarian"", ""Low-Fat""]",[],"[""Italian"", ""Middle Eastern""]",67e5a9b7d27a5f1dae615a15

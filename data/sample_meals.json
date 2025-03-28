@@ -1,0 +1,392 @@
+[
+  {
+    "name": "Chocolate Chip Banana Pancakes",
+    "description": "Fluffy pancakes made with ripe bananas and chocolate chips, perfect for a mood-boosting breakfast.",
+    "ingredients": [
+      "2 ripe bananas, mashed",
+      "1 cup all-purpose flour",
+      "1 tablespoon sugar",
+      "2 teaspoons baking powder",
+      "1/4 teaspoon salt",
+      "1 egg",
+      "1 cup milk",
+      "2 tablespoons vegetable oil",
+      "1/2 cup chocolate chips"
+    ],
+    "recipe_steps": [
+      "In a large bowl, mash the bananas with a fork.",
+      "Add the egg, milk, and oil to the bananas and mix well.",
+      "In another bowl, combine the flour, sugar, baking powder, and salt.",
+      "Add the dry ingredients to the banana mixture and stir until just combined.",
+      "Fold in the chocolate chips.",
+      "Heat a lightly oiled griddle or frying pan over medium-high heat.",
+      "Pour or scoop the batter onto the griddle, using approximately 1/4 cup for each pancake.",
+      "Cook until bubbles form and the edges are dry, then flip and cook until browned on the other side.",
+      "Serve warm with maple syrup and additional sliced bananas if desired."
+    ],
+    "image_url": "https://images.unsplash.com/photo-1567620905732-2d1ec7ab7445?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1080&q=80",
+    "prep_time": 15,
+    "cook_time": 15,
+    "cuisine_type": "American",
+    "meal_type": "Breakfast",
+    "mood_tags": ["happy", "celebratory", "energetic"],
+    "nutritional_info": {
+      "calories": 320,
+      "protein": 6,
+      "carbs": 48,
+      "fat": 12,
+      "dietary_tags": ["Vegetarian"]
+    }
+  },
+  {
+    "name": "Creamy Tomato Basil Soup",
+    "description": "A comforting tomato soup with fresh basil and a touch of cream, perfect for when you're feeling under the weather.",
+    "ingredients": [
+      "2 tablespoons olive oil",
+      "1 onion, chopped",
+      "2 cloves garlic, minced",
+      "2 (28 oz) cans whole peeled tomatoes",
+      "2 cups vegetable broth",
+      "1/4 cup fresh basil leaves, plus more for garnish",
+      "1 teaspoon sugar",
+      "1/2 cup heavy cream",
+      "Salt and pepper to taste"
+    ],
+    "recipe_steps": [
+      "Heat olive oil in a large pot over medium heat.",
+      "Add onion and cook until soft and translucent, about 5 minutes.",
+      "Add garlic and cook for another minute until fragrant.",
+      "Add the tomatoes with their juice, vegetable broth, basil, and sugar.",
+      "Bring to a simmer and cook for 15 minutes.",
+      "Using an immersion blender, blend the soup until smooth (or transfer to a blender in batches).",
+      "Stir in the heavy cream and heat through without boiling.",
+      "Season with salt and pepper to taste.",
+      "Serve hot, garnished with fresh basil leaves."
+    ],
+    "image_url": "https://images.unsplash.com/photo-1547592180-85f173990554?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1080&q=80",
+    "prep_time": 10,
+    "cook_time": 30,
+    "cuisine_type": "Italian",
+    "meal_type": "Lunch",
+    "mood_tags": ["sad", "sick", "tired"],
+    "nutritional_info": {
+      "calories": 220,
+      "protein": 4,
+      "carbs": 18,
+      "fat": 15,
+      "dietary_tags": ["Vegetarian", "Gluten-Free"]
+    }
+  },
+  {
+    "name": "Spicy Thai Peanut Noodles",
+    "description": "Vibrant and flavorful noodles with a spicy peanut sauce that will energize your taste buds.",
+    "ingredients": [
+      "8 oz rice noodles",
+      "2 tablespoons vegetable oil",
+      "1 red bell pepper, thinly sliced",
+      "1 carrot, julienned",
+      "2 green onions, chopped",
+      "1 cup bean sprouts",
+      "1/4 cup chopped peanuts",
+      "1/4 cup chopped cilantro",
+      "For the sauce:",
+      "1/3 cup peanut butter",
+      "2 tablespoons soy sauce",
+      "1 tablespoon rice vinegar",
+      "1 tablespoon sriracha sauce",
+      "1 tablespoon honey",
+      "1 clove garlic, minced",
+      "1 teaspoon grated ginger",
+      "2-3 tablespoons water"
+    ],
+    "recipe_steps": [
+      "Cook rice noodles according to package directions. Drain and rinse with cold water.",
+      "In a small bowl, whisk together all sauce ingredients until smooth.",
+      "Heat oil in a large skillet or wok over medium-high heat.",
+      "Add bell pepper and carrot, stir-fry for 2-3 minutes until slightly softened.",
+      "Add the cooked noodles and sauce to the skillet, tossing to coat evenly.",
+      "Cook for another 2 minutes until everything is heated through.",
+      "Remove from heat and stir in bean sprouts and green onions.",
+      "Serve garnished with chopped peanuts and cilantro."
+    ],
+    "image_url": "https://images.unsplash.com/photo-1565557623262-b51c2513a641?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1080&q=80",
+    "prep_time": 15,
+    "cook_time": 15,
+    "cuisine_type": "Thai",
+    "meal_type": "Dinner",
+    "mood_tags": ["energetic", "happy", "bored"],
+    "nutritional_info": {
+      "calories": 380,
+      "protein": 12,
+      "carbs": 45,
+      "fat": 18,
+      "dietary_tags": ["Vegan", "Gluten-Free"]
+    }
+  },
+  {
+    "name": "Mediterranean Chickpea Salad",
+    "description": "A refreshing and nutritious salad that's perfect for a light meal when you're feeling stressed.",
+    "ingredients": [
+      "2 (15 oz) cans chickpeas, drained and rinsed",
+      "1 cucumber, diced",
+      "1 pint cherry tomatoes, halved",
+      "1/2 red onion, finely diced",
+      "1/2 cup kalamata olives, pitted and halved",
+      "1/2 cup crumbled feta cheese",
+      "1/4 cup chopped fresh parsley",
+      "For the dressing:",
+      "1/4 cup olive oil",
+      "2 tablespoons lemon juice",
+      "1 tablespoon red wine vinegar",
+      "1 clove garlic, minced",
+      "1 teaspoon dried oregano",
+      "Salt and pepper to taste"
+    ],
+    "recipe_steps": [
+      "In a large bowl, combine chickpeas, cucumber, tomatoes, red onion, olives, feta, and parsley.",
+      "In a small bowl, whisk together all dressing ingredients.",
+      "Pour the dressing over the salad and toss gently to combine.",
+      "Refrigerate for at least 30 minutes before serving to allow flavors to meld.",
+      "Serve chilled as a main dish or side salad."
+    ],
+    "image_url": "https://images.unsplash.com/photo-1511994714008-b6d68a8b32a2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1080&q=80",
+    "prep_time": 20,
+    "cook_time": 0,
+    "cuisine_type": "Mediterranean",
+    "meal_type": "Lunch",
+    "mood_tags": ["stressed", "energetic", "relaxed"],
+    "nutritional_info": {
+      "calories": 280,
+      "protein": 10,
+      "carbs": 30,
+      "fat": 14,
+      "dietary_tags": ["Vegetarian", "Gluten-Free"]
+    }
+  },
+  {
+    "name": "Warm Apple Cinnamon Oatmeal",
+    "description": "A hearty bowl of oatmeal with warm spices and sweet apples to comfort you on a gloomy day.",
+    "ingredients": [
+      "1 cup rolled oats",
+      "2 cups milk (or almond milk)",
+      "1 apple, diced",
+      "2 tablespoons maple syrup",
+      "1 teaspoon cinnamon",
+      "1/4 teaspoon nutmeg",
+      "Pinch of salt",
+      "2 tablespoons chopped walnuts",
+      "1 tablespoon chia seeds"
+    ],
+    "recipe_steps": [
+      "In a medium saucepan, combine oats, milk, diced apple, maple syrup, cinnamon, nutmeg, and salt.",
+      "Bring to a simmer over medium heat, stirring occasionally.",
+      "Cook for 5-7 minutes until oats are tender and mixture has thickened.",
+      "Remove from heat and let stand for 2 minutes.",
+      "Serve topped with chopped walnuts and chia seeds."
+    ],
+    "image_url": "https://images.unsplash.com/photo-1517673132405-a56a62b18caf?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1080&q=80",
+    "prep_time": 5,
+    "cook_time": 10,
+    "cuisine_type": "American",
+    "meal_type": "Breakfast",
+    "mood_tags": ["sad", "tired", "relaxed"],
+    "nutritional_info": {
+      "calories": 310,
+      "protein": 10,
+      "carbs": 52,
+      "fat": 8,
+      "dietary_tags": ["Vegetarian"]
+    }
+  },
+  {
+    "name": "Grilled Salmon with Lemon-Dill Sauce",
+    "description": "Perfectly grilled salmon with a bright lemon-dill sauce, ideal for boosting your mood and energy.",
+    "ingredients": [
+      "4 salmon fillets (6 oz each)",
+      "2 tablespoons olive oil",
+      "Salt and pepper to taste",
+      "For the sauce:",
+      "1/4 cup Greek yogurt",
+      "2 tablespoons mayonnaise",
+      "1 tablespoon lemon juice",
+      "1 teaspoon lemon zest",
+      "2 tablespoons fresh dill, chopped",
+      "1 clove garlic, minced",
+      "Salt and pepper to taste"
+    ],
+    "recipe_steps": [
+      "Preheat grill to medium-high heat.",
+      "Brush salmon fillets with olive oil and season with salt and pepper.",
+      "In a small bowl, mix all sauce ingredients until well combined. Refrigerate until ready to use.",
+      "Grill salmon for 4-5 minutes per side, or until fish flakes easily with a fork.",
+      "Serve salmon topped with lemon-dill sauce and a lemon wedge on the side."
+    ],
+    "image_url": "https://images.unsplash.com/photo-1519708227418-c8fd9a32b7a2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1080&q=80",
+    "prep_time": 10,
+    "cook_time": 10,
+    "cuisine_type": "Mediterranean",
+    "meal_type": "Dinner",
+    "mood_tags": ["energetic", "happy", "relaxed"],
+    "nutritional_info": {
+      "calories": 350,
+      "protein": 34,
+      "carbs": 3,
+      "fat": 22,
+      "dietary_tags": ["Gluten-Free", "Keto", "Pescatarian"]
+    }
+  },
+  {
+    "name": "Dark Chocolate Avocado Mousse",
+    "description": "A rich and creamy chocolate dessert that's secretly healthy and perfect for lifting your spirits.",
+    "ingredients": [
+      "2 ripe avocados, pitted and peeled",
+      "1/2 cup unsweetened cocoa powder",
+      "1/2 cup maple syrup or honey",
+      "1/4 cup almond milk",
+      "2 teaspoons vanilla extract",
+      "Pinch of salt",
+      "Fresh berries for garnish"
+    ],
+    "recipe_steps": [
+      "Place all ingredients except berries in a food processor.",
+      "Blend until completely smooth, stopping to scrape down the sides as needed.",
+      "Taste and adjust sweetness if necessary.",
+      "Spoon into serving dishes and refrigerate for at least 2 hours to set.",
+      "Serve chilled, topped with fresh berries."
+    ],
+    "image_url": "https://images.unsplash.com/photo-1541783245831-57d6fb0926d3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1080&q=80",
+    "prep_time": 10,
+    "cook_time": 0,
+    "cuisine_type": "American",
+    "meal_type": "Dessert",
+    "mood_tags": ["sad", "stressed", "celebratory"],
+    "nutritional_info": {
+      "calories": 220,
+      "protein": 3,
+      "carbs": 28,
+      "fat": 12,
+      "dietary_tags": ["Vegan", "Gluten-Free", "Dairy-Free"]
+    }
+  },
+  {
+    "name": "Veggie-Packed Minestrone Soup",
+    "description": "A hearty Italian soup loaded with vegetables, beans, and pasta that's comforting when you're feeling sick.",
+    "ingredients": [
+      "2 tablespoons olive oil",
+      "1 onion, diced",
+      "2 carrots, diced",
+      "2 celery stalks, diced",
+      "3 cloves garlic, minced",
+      "1 zucchini, diced",
+      "1 cup green beans, trimmed and cut into 1-inch pieces",
+      "1 (14 oz) can diced tomatoes",
+      "6 cups vegetable broth",
+      "1 (14 oz) can cannellini beans, drained and rinsed",
+      "1 cup small pasta (like ditalini or small shells)",
+      "1 teaspoon dried oregano",
+      "1 teaspoon dried basil",
+      "2 bay leaves",
+      "Salt and pepper to taste",
+      "2 tablespoons fresh parsley, chopped",
+      "Grated Parmesan cheese for serving"
+    ],
+    "recipe_steps": [
+      "Heat olive oil in a large pot over medium heat.",
+      "Add onion, carrots, and celery. Cook for 5 minutes until softened.",
+      "Add garlic and cook for another minute until fragrant.",
+      "Add zucchini, green beans, diced tomatoes, vegetable broth, cannellini beans, oregano, basil, and bay leaves.",
+      "Bring to a boil, then reduce heat and simmer for 15 minutes.",
+      "Add pasta and cook until al dente, about 8-10 minutes more.",
+      "Remove bay leaves and season with salt and pepper.",
+      "Serve hot, garnished with fresh parsley and Parmesan cheese."
+    ],
+    "image_url": "https://images.unsplash.com/photo-1547592166-23ac45744acd?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1080&q=80",
+    "prep_time": 20,
+    "cook_time": 40,
+    "cuisine_type": "Italian",
+    "meal_type": "Dinner",
+    "mood_tags": ["sick", "tired", "stressed"],
+    "nutritional_info": {
+      "calories": 280,
+      "protein": 12,
+      "carbs": 45,
+      "fat": 7,
+      "dietary_tags": ["Vegetarian"]
+    }
+  },
+  {
+    "name": "Spicy Buffalo Cauliflower Bites",
+    "description": "Crispy baked cauliflower tossed in spicy buffalo sauce, a perfect snack when you're bored and craving something with a kick.",
+    "ingredients": [
+      "1 large head cauliflower, cut into florets",
+      "1/2 cup all-purpose flour",
+      "1/2 cup water",
+      "1 teaspoon garlic powder",
+      "1/2 teaspoon paprika",
+      "1/4 teaspoon salt",
+      "1/4 teaspoon black pepper",
+      "3/4 cup buffalo sauce",
+      "1 tablespoon melted butter",
+      "Ranch or blue cheese dressing for dipping",
+      "Celery sticks for serving"
+    ],
+    "recipe_steps": [
+      "Preheat oven to 450°F (230°C) and line a baking sheet with parchment paper.",
+      "In a large bowl, whisk together flour, water, garlic powder, paprika, salt, and pepper to form a batter.",
+      "Dip cauliflower florets in the batter, making sure they are fully coated, and place on the baking sheet.",
+      "Bake for 20 minutes until crispy.",
+      "In a small bowl, mix buffalo sauce and melted butter.",
+      "Remove cauliflower from oven, toss with buffalo sauce mixture, and return to the baking sheet.",
+      "Bake for another 5-10 minutes until crispy again.",
+      "Serve hot with ranch or blue cheese dressing and celery sticks."
+    ],
+    "image_url": "https://images.unsplash.com/photo-1604573714289-312a6972f67c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1080&q=80",
+    "prep_time": 15,
+    "cook_time": 30,
+    "cuisine_type": "American",
+    "meal_type": "Snack",
+    "mood_tags": ["bored", "hungry", "energetic"],
+    "nutritional_info": {
+      "calories": 180,
+      "protein": 5,
+      "carbs": 22,
+      "fat": 8,
+      "dietary_tags": ["Vegetarian"]
+    }
+  },
+  {
+    "name": "Lavender Chamomile Tea Latte",
+    "description": "A soothing herbal tea latte with calming lavender and chamomile, perfect for relaxation and stress relief.",
+    "ingredients": [
+      "2 chamomile tea bags",
+      "1 teaspoon dried culinary lavender",
+      "1 cup hot water",
+      "1 cup milk (or almond milk)",
+      "1 tablespoon honey",
+      "1/4 teaspoon vanilla extract",
+      "Dried lavender buds for garnish"
+    ],
+    "recipe_steps": [
+      "Steep chamomile tea bags and dried lavender in hot water for 5 minutes.",
+      "Remove tea bags and strain out lavender buds.",
+      "In a small saucepan, heat milk until steaming but not boiling.",
+      "Froth milk using a milk frother or whisk vigorously.",
+      "Stir honey and vanilla extract into the tea.",
+      "Pour tea into a mug and top with frothed milk.",
+      "Garnish with a sprinkle of dried lavender buds if desired."
+    ],
+    "image_url": "https://images.unsplash.com/photo-1544787219-7f47ccb76574?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1080&q=80",
+    "prep_time": 5,
+    "cook_time": 10,
+    "cuisine_type": "Beverage",
+    "meal_type": "Beverage",
+    "mood_tags": ["stressed", "tired", "relaxed"],
+    "nutritional_info": {
+      "calories": 120,
+      "protein": 4,
+      "carbs": 18,
+      "fat": 4,
+      "dietary_tags": ["Vegetarian", "Gluten-Free"]
+    }
+  }
+]

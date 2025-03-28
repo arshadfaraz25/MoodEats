@@ -1,0 +1,194 @@
+[
+  {
+    "id": "happy",
+    "name": "Happy",
+    "description": "Feeling joyful, content, or pleased",
+    "emoji": ":)",
+    "color": "green",
+    "recommended_foods": [
+      "Dark chocolate",
+      "Berries",
+      "Nuts",
+      "Whole grains",
+      "Yogurt"
+    ],
+    "avoid_foods": [
+      "Processed foods",
+      "Excessive caffeine",
+      "Alcohol"
+    ]
+  },
+  {
+    "id": "sad",
+    "name": "Sad",
+    "description": "Feeling down, blue, or unhappy",
+    "emoji": ":(",
+    "color": "blue",
+    "recommended_foods": [
+      "Fatty fish (salmon, tuna)",
+      "Walnuts",
+      "Dark chocolate",
+      "Bananas",
+      "Oats"
+    ],
+    "avoid_foods": [
+      "Sugary foods",
+      "Alcohol",
+      "Processed foods"
+    ]
+  },
+  {
+    "id": "stressed",
+    "name": "Stressed",
+    "description": "Feeling overwhelmed or anxious",
+    "emoji": ":/",
+    "color": "yellow",
+    "recommended_foods": [
+      "Dark leafy greens",
+      "Avocados",
+      "Warm herbal teas",
+      "Complex carbohydrates",
+      "Citrus fruits"
+    ],
+    "avoid_foods": [
+      "Caffeine",
+      "Alcohol",
+      "Sugary foods",
+      "Processed foods"
+    ]
+  },
+  {
+    "id": "relaxed",
+    "name": "Relaxed",
+    "description": "Feeling calm and at ease",
+    "emoji": ":}",
+    "color": "indigo",
+    "recommended_foods": [
+      "Chamomile tea",
+      "Turkey",
+      "Warm milk",
+      "Bananas",
+      "Oatmeal"
+    ],
+    "avoid_foods": [
+      "Caffeine",
+      "Spicy foods",
+      "Heavy meals"
+    ]
+  },
+  {
+    "id": "energetic",
+    "name": "Energetic",
+    "description": "Feeling full of energy and vitality",
+    "emoji": ":D",
+    "color": "purple",
+    "recommended_foods": [
+      "Fruits",
+      "Whole grains",
+      "Lean proteins",
+      "Nuts and seeds",
+      "Green tea"
+    ],
+    "avoid_foods": [
+      "Heavy, fatty meals",
+      "Excessive sugar",
+      "Processed foods"
+    ]
+  },
+  {
+    "id": "tired",
+    "name": "Tired",
+    "description": "Feeling fatigued or sleepy",
+    "emoji": "|-O",
+    "color": "gray",
+    "recommended_foods": [
+      "Iron-rich foods (spinach, lean meats)",
+      "B-vitamin foods (whole grains, eggs)",
+      "Nuts",
+      "Bananas",
+      "Water"
+    ],
+    "avoid_foods": [
+      "Sugary foods",
+      "Caffeine (especially later in the day)",
+      "Heavy meals"
+    ]
+  },
+  {
+    "id": "hungry",
+    "name": "Hungry",
+    "description": "Feeling a strong desire for food",
+    "emoji": "O-O",
+    "color": "orange",
+    "recommended_foods": [
+      "Protein-rich foods",
+      "Fiber-rich foods",
+      "Healthy fats",
+      "Complex carbohydrates",
+      "Soups and stews"
+    ],
+    "avoid_foods": [
+      "Simple carbohydrates",
+      "Sugary snacks",
+      "Highly processed foods"
+    ]
+  },
+  {
+    "id": "bored",
+    "name": "Bored",
+    "description": "Feeling uninterested or lacking stimulation",
+    "emoji": "-_-",
+    "color": "pink",
+    "recommended_foods": [
+      "Crunchy foods (carrots, apples)",
+      "Flavorful foods with spices",
+      "Foods that require preparation",
+      "New or exotic foods",
+      "Colorful foods"
+    ],
+    "avoid_foods": [
+      "Comfort foods (may lead to emotional eating)",
+      "Mindless snacking",
+      "Highly processed foods"
+    ]
+  },
+  {
+    "id": "sick",
+    "name": "Sick",
+    "description": "Feeling unwell or ill",
+    "emoji": ">_<",
+    "color": "red",
+    "recommended_foods": [
+      "Chicken soup",
+      "Ginger tea",
+      "Honey and lemon",
+      "Bland foods (toast, rice)",
+      "Clear broths"
+    ],
+    "avoid_foods": [
+      "Dairy products",
+      "Fatty foods",
+      "Caffeine",
+      "Alcohol",
+      "Spicy foods"
+    ]
+  },
+  {
+    "id": "celebratory",
+    "name": "Celebratory",
+    "description": "Feeling festive or wanting to celebrate",
+    "emoji": "^_^",
+    "color": "teal",
+    "recommended_foods": [
+      "Special occasion foods",
+      "Colorful dishes",
+      "Shared platters",
+      "Favorite treats in moderation",
+      "Festive beverages"
+    ],
+    "avoid_foods": [
+      "Excessive alcohol",
+      "Too many rich foods at once"
+    ]
+  }
+]

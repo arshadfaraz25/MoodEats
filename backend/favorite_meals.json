@@ -1,0 +1,290 @@
+[
+  {
+    "_id": "67e5af4b4344fe1865108e21",
+    "name": "Dark Chocolate Avocado Mousse",
+    "description": "A rich and creamy chocolate dessert that's secretly healthy and perfect for lifting your spirits.",
+    "ingredients": [
+      "2 ripe avocados, pitted and peeled",
+      "1/2 cup unsweetened cocoa powder",
+      "1/2 cup maple syrup or honey",
+      "1/4 cup almond milk",
+      "2 teaspoons vanilla extract",
+      "Pinch of salt",
+      "Fresh berries for garnish"
+    ],
+    "recipe_steps": [
+      "Place all ingredients except berries in a food processor.",
+      "Blend until completely smooth, stopping to scrape down the sides as needed.",
+      "Taste and adjust sweetness if necessary.",
+      "Spoon into serving dishes and refrigerate for at least 2 hours to set.",
+      "Serve chilled, topped with fresh berries."
+    ],
+    "image_url": "https://images.unsplash.com/photo-1541783245831-57d6fb0926d3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1080&q=80",
+    "prep_time": 10,
+    "cook_time": 0,
+    "cuisine_type": "American",
+    "meal_type": "Dessert",
+    "mood_tags": [
+      "sad",
+      "stressed",
+      "celebratory"
+    ],
+    "nutritional_info": {
+      "calories": 220,
+      "protein": 3,
+      "carbs": 28,
+      "fat": 12,
+      "dietary_tags": [
+        "Vegan",
+        "Gluten-Free",
+        "Dairy-Free"
+      ]
+    },
+    "created_at": "2025-03-27T16:04:27.112000",
+    "updated_at": "2025-03-27T16:04:27.112000",
+    "feedback": [
+      {
+        "user_id": "67e5af4d4344fe1865108e28",
+        "user_name": "Bob Johnson",
+        "rating": 4,
+        "comment": "Loved this recipe! It was exactly what I needed for my mood.",
+        "timestamp": "2025-03-22T16:05:27.352000"
+      },
+      {
+        "user_id": "67e5af4b4344fe1865108e25",
+        "user_name": "Admin User",
+        "rating": 2,
+        "comment": "This didn't really match my mood as expected.",
+        "timestamp": "2025-03-15T16:05:27.352000"
+      },
+      {
+        "user_id": "67e5af4d4344fe1865108e27",
+        "user_name": "Jane Smith",
+        "rating": 5,
+        "comment": "I was skeptical at first, but this was fantastic!",
+        "timestamp": "2025-02-05T16:05:27.352000"
+      },
+      {
+        "user_id": "67e5af4c4344fe1865108e26",
+        "user_name": "John Doe",
+        "rating": 5,
+        "comment": "Simple to make but tastes gourmet!",
+        "timestamp": "2025-03-20T16:05:27.352000"
+      }
+    ],
+    "average_rating": 4.0
+  },
+  {
+    "_id": "67e5af4a4344fe1865108e1b",
+    "name": "Chocolate Chip Banana Pancakes",
+    "description": "Fluffy pancakes made with ripe bananas and chocolate chips, perfect for a mood-boosting breakfast.",
+    "ingredients": [
+      "2 ripe bananas, mashed",
+      "1 cup all-purpose flour",
+      "1 tablespoon sugar",
+      "2 teaspoons baking powder",
+      "1/4 teaspoon salt",
+      "1 egg",
+      "1 cup milk",
+      "2 tablespoons vegetable oil",
+      "1/2 cup chocolate chips"
+    ],
+    "recipe_steps": [
+      "In a large bowl, mash the bananas with a fork.",
+      "Add the egg, milk, and oil to the bananas and mix well.",
+      "In another bowl, combine the flour, sugar, baking powder, and salt.",
+      "Add the dry ingredients to the banana mixture and stir until just combined.",
+      "Fold in the chocolate chips.",
+      "Heat a lightly oiled griddle or frying pan over medium-high heat.",
+      "Pour or scoop the batter onto the griddle, using approximately 1/4 cup for each pancake.",
+      "Cook until bubbles form and the edges are dry, then flip and cook until browned on the other side.",
+      "Serve warm with maple syrup and additional sliced bananas if desired."
+    ],
+    "image_url": "https://images.unsplash.com/photo-1567620905732-2d1ec7ab7445?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1080&q=80",
+    "prep_time": 15,
+    "cook_time": 15,
+    "cuisine_type": "American",
+    "meal_type": "Breakfast",
+    "mood_tags": [
+      "happy",
+      "celebratory",
+      "energetic"
+    ],
+    "nutritional_info": {
+      "calories": 320,
+      "protein": 6,
+      "carbs": 48,
+      "fat": 12,
+      "dietary_tags": [
+        "Vegetarian"
+      ]
+    },
+    "created_at": "2025-03-27T16:04:26.981000",
+    "updated_at": "2025-03-27T16:04:26.981000",
+    "feedback": [
+      {
+        "user_id": "67e5af4d4344fe1865108e28",
+        "user_name": "Bob Johnson",
+        "rating": 1,
+        "comment": "This didn't really match my mood as expected.",
+        "timestamp": "2025-03-11T16:05:27.303000"
+      },
+      {
+        "user_id": "67e5af4c4344fe1865108e26",
+        "user_name": "John Doe",
+        "rating": 4,
+        "comment": "This was so easy to make and tasted amazing.",
+        "timestamp": "2025-02-04T16:05:27.303000"
+      },
+      {
+        "user_id": "67e5af4b4344fe1865108e25",
+        "user_name": "Admin User",
+        "rating": 5,
+        "comment": "The flavors worked so well together. Yum!",
+        "timestamp": "2025-02-22T16:05:27.303000"
+      }
+    ],
+    "average_rating": 3.3
+  },
+  {
+    "_id": "67e5af4a4344fe1865108e1c",
+    "name": "Creamy Tomato Basil Soup",
+    "description": "A comforting tomato soup with fresh basil and a touch of cream, perfect for when you're feeling under the weather.",
+    "ingredients": [
+      "2 tablespoons olive oil",
+      "1 onion, chopped",
+      "2 cloves garlic, minced",
+      "2 (28 oz) cans whole peeled tomatoes",
+      "2 cups vegetable broth",
+      "1/4 cup fresh basil leaves, plus more for garnish",
+      "1 teaspoon sugar",
+      "1/2 cup heavy cream",
+      "Salt and pepper to taste"
+    ],
+    "recipe_steps": [
+      "Heat olive oil in a large pot over medium heat.",
+      "Add onion and cook until soft and translucent, about 5 minutes.",
+      "Add garlic and cook for another minute until fragrant.",
+      "Add the tomatoes with their juice, vegetable broth, basil, and sugar.",
+      "Bring to a simmer and cook for 15 minutes.",
+      "Using an immersion blender, blend the soup until smooth (or transfer to a blender in batches).",
+      "Stir in the heavy cream and heat through without boiling.",
+      "Season with salt and pepper to taste.",
+      "Serve hot, garnished with fresh basil leaves."
+    ],
+    "image_url": "https://images.unsplash.com/photo-1547592180-85f173990554?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1080&q=80",
+    "prep_time": 10,
+    "cook_time": 30,
+    "cuisine_type": "Italian",
+    "meal_type": "Lunch",
+    "mood_tags": [
+      "sad",
+      "sick",
+      "tired"
+    ],
+    "nutritional_info": {
+      "calories": 220,
+      "protein": 4,
+      "carbs": 18,
+      "fat": 15,
+      "dietary_tags": [
+        "Vegetarian",
+        "Gluten-Free"
+      ]
+    },
+    "created_at": "2025-03-27T16:04:26.982000",
+    "updated_at": "2025-03-27T16:04:26.982000",
+    "feedback": [
+      {
+        "user_id": "67e5af4d4344fe1865108e27",
+        "user_name": "Jane Smith",
+        "rating": 3,
+        "comment": "Decent recipe, but not my favorite.",
+        "timestamp": "2025-03-25T16:05:27.305000"
+      },
+      {
+        "user_id": "67e5af4d4344fe1865108e28",
+        "user_name": "Bob Johnson",
+        "rating": 4,
+        "comment": "This really helped improve my mood. Thank you!",
+        "timestamp": "2025-02-24T16:05:27.305000"
+      }
+    ],
+    "average_rating": 3.5
+  },
+  {
+    "_id": "67e5af4b4344fe1865108e1f",
+    "name": "Warm Apple Cinnamon Oatmeal",
+    "description": "A hearty bowl of oatmeal with warm spices and sweet apples to comfort you on a gloomy day.",
+    "ingredients": [
+      "1 cup rolled oats",
+      "2 cups milk (or almond milk)",
+      "1 apple, diced",
+      "2 tablespoons maple syrup",
+      "1 teaspoon cinnamon",
+      "1/4 teaspoon nutmeg",
+      "Pinch of salt",
+      "2 tablespoons chopped walnuts",
+      "1 tablespoon chia seeds"
+    ],
+    "recipe_steps": [
+      "In a medium saucepan, combine oats, milk, diced apple, maple syrup, cinnamon, nutmeg, and salt.",
+      "Bring to a simmer over medium heat, stirring occasionally.",
+      "Cook for 5-7 minutes until oats are tender and mixture has thickened.",
+      "Remove from heat and let stand for 2 minutes.",
+      "Serve topped with chopped walnuts and chia seeds."
+    ],
+    "image_url": "https://images.unsplash.com/photo-1517673132405-a56a62b18caf?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1080&q=80",
+    "prep_time": 5,
+    "cook_time": 10,
+    "cuisine_type": "American",
+    "meal_type": "Breakfast",
+    "mood_tags": [
+      "sad",
+      "tired",
+      "relaxed"
+    ],
+    "nutritional_info": {
+      "calories": 310,
+      "protein": 10,
+      "carbs": 52,
+      "fat": 8,
+      "dietary_tags": [
+        "Vegetarian"
+      ]
+    },
+    "created_at": "2025-03-27T16:04:27.056000",
+    "updated_at": "2025-03-27T16:04:27.056000",
+    "feedback": [
+      {
+        "user_id": "67e5af4d4344fe1865108e28",
+        "user_name": "Bob Johnson",
+        "rating": 3,
+        "comment": "Not bad, but I've had better.",
+        "timestamp": "2025-03-04T16:05:27.332000"
+      },
+      {
+        "user_id": "67e5af4d4344fe1865108e27",
+        "user_name": "Jane Smith",
+        "rating": 5,
+        "comment": "Simple to make but tastes gourmet!",
+        "timestamp": "2025-03-03T16:05:27.332000"
+      },
+      {
+        "user_id": "67e5af4b4344fe1865108e25",
+        "user_name": "Admin User",
+        "rating": 5,
+        "comment": "I was skeptical at first, but this was fantastic!",
+        "timestamp": "2025-02-21T16:05:27.332000"
+      },
+      {
+        "user_id": "67e5af4c4344fe1865108e26",
+        "user_name": "John Doe",
+        "rating": 4,
+        "comment": "Loved this recipe! It was exactly what I needed for my mood.",
+        "timestamp": "2025-02-23T16:05:27.332000"
+      }
+    ],
+    "average_rating": 4.2
+  }
+]
