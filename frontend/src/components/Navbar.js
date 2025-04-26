@@ -1,3 +1,11 @@
+/**
+ * File name: Navbar.js
+ * Purpose: Navigation component for the MoodEats application.
+ * Provides navigation links and user authentication controls.
+ *
+ * @author Arshad Faraz
+ * @version 1.0.0
+ */
 import React, { useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import { useAuth } from '../context/AuthContext';

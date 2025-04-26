@@ -1,3 +1,11 @@
+/**
+ * File name: MealCard.js
+ * Purpose: Reusable meal card component for displaying meal information.
+ * Handles meal display, favorite toggling, and navigation to meal details.
+ *
+ * @author Arshad Faraz
+ * @version 1.0.0
+ */
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { useAuth } from '../context/AuthContext';

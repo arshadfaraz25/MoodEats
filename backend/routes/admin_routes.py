@@ -1,3 +1,11 @@
+"""
+File name: admin_routes.py
+Purpose: API routes for admin operations in the MoodEats application.
+         Handles user management, meal CRUD operations, and analytics.
+
+@author Arshad Faraz
+@version 1.0.0
+"""
 from flask import Blueprint, request, jsonify, session
 from bson import ObjectId
 from db import mongo

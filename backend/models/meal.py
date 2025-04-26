@@ -1,3 +1,11 @@
+"""
+File name: meal.py
+Purpose: Defines the Meal and NutritionalInfo models for the MoodEats application.
+         Handles meal data structure, nutritional information, and conversion to/from database format.
+
+@author Arshad Faraz
+@version 1.0.0
+"""
 from bson import ObjectId
 from datetime import datetime
 

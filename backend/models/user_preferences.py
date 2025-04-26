@@ -1,3 +1,11 @@
+"""
+File name: user_preferences.py
+Purpose: Defines the UserPreferences model for storing user settings and preferences.
+         Handles dietary restrictions, favorite cuisines, allergies, and favorite meals.
+
+@author Arshad Faraz
+@version 1.0.0
+"""
 from bson import ObjectId
 
 class UserPreferences:

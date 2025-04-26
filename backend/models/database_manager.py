@@ -1,3 +1,11 @@
+"""
+File name: database_manager.py
+Purpose: Centralized database manager for MoodEats application.
+         Handles all database operations for users, meals, mood logs, and feedback.
+
+@author Arshad Faraz
+@version 1.0.0
+"""
 from bson import ObjectId
 import random
 from models.user import User

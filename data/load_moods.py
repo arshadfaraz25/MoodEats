@@ -1,3 +1,11 @@
+"""
+File name: load_moods.py
+Purpose: Loads sample mood data into the MoodEats MongoDB database.
+         Imports predefined mood categories from a JSON file.
+
+@author Arshad Faraz
+@version 1.0.0
+"""
 import json
 import os
 import sys

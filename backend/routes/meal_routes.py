@@ -1,3 +1,11 @@
+"""
+File name: meal_routes.py
+Purpose: API routes for meal-related operations in the MoodEats application.
+         Handles meal retrieval, searching, feedback, and random meal selection.
+
+@author Arshad Faraz
+@version 1.0.0
+"""
 from flask import Blueprint, request, jsonify, session
 from bson import ObjectId
 from db import mongo

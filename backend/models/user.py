@@ -1,3 +1,10 @@
+"""
+File name: user.py
+Purpose: Defines the User model for authentication and user management.
+
+@author Arshad Faraz
+@version 1.0.0
+"""
 from datetime import datetime
 from bson import ObjectId
 from werkzeug.security import generate_password_hash, check_password_hash
@@ -5,6 +12,8 @@ from werkzeug.security import generate_password_hash, check_password_hash
 class User:
     """
     User class for managing user data such as authentication, preferences, and activity.
+    
+    @author Arshad Faraz
     """
     def __init__(self, email, password=None, name=None, user_id=None, created_at=None, 
                  last_login=None, is_admin=False, preferences=None, password_hash=None):
@@ -18,17 +27,23 @@ class User:
         self.preferences = preferences if preferences else {}
     
     def check_password(self, password):
-        """Verify the password against the stored hash"""
+        """
+        Verify the password against the stored hash
+        """
         if not self.password_hash:
             return False
         return check_password_hash(self.password_hash, password)
     
     def update_last_login(self):
-        """Update the last login timestamp"""
+        """
+        Update the last login timestamp
+        """
         self.last_login = datetime.now()
     
     def to_dict(self):
-        """Convert user object to dictionary for database storage"""
+        """
+        Convert user object to dictionary for database storage
+        """
         return {
             "_id": self.user_id,
             "email": self.email,
@@ -42,7 +57,9 @@ class User:
     
     @classmethod
     def from_dict(cls, user_dict):
-        """Create a User object from a dictionary"""
+        """
+        Create a User object from a dictionary
+        """
         if not user_dict:
             return None
         

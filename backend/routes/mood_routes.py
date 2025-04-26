@@ -1,3 +1,11 @@
+"""
+File name: mood_routes.py
+Purpose: API routes for mood-related operations in the MoodEats application.
+         Handles mood logging, history retrieval, and mood-based recommendations.
+
+@author Arshad Faraz
+@version 1.0.0
+"""
 from flask import Blueprint, request, jsonify, session
 from bson import ObjectId
 from db import mongo

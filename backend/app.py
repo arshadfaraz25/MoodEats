@@ -1,3 +1,11 @@
+"""
+File name: app.py
+Purpose: Main Flask application entry point for the MoodEats backend.
+Handles API routes, database connection, and server configuration.
+
+@author Arshad Faraz
+@version 1.0.0
+"""
 from flask import Flask, jsonify
 from flask_cors import CORS
 from dotenv import load_dotenv
@@ -23,6 +31,11 @@ CORS(app, supports_credentials=True)
 
 # Custom JSON encoder to handle ObjectId and datetime
 class MongoJSONEncoder(json.JSONEncoder):
+    """
+    Custom JSON encoder class to properly serialize MongoDB ObjectId and datetime objects
+    
+    @author Arshad Faraz
+    """
     def default(self, obj):
         if isinstance(obj, datetime.datetime):
             return obj.isoformat()

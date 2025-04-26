@@ -1,3 +1,11 @@
+/**
+ * File name: MoodHistory.js
+ * Purpose: Component for displaying user's mood history in the MoodEats application.
+ * Handles fetching, deduplication, and display of mood entries with emoji indicators.
+ *
+ * @author Arshad Faraz
+ * @version 1.0.0
+ */
 import React, { useState, useEffect } from 'react';
 import { moodAPI } from '../services/api';
 import { Link } from 'react-router-dom';

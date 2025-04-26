@@ -1,6 +1,13 @@
-import React, { useState, useEffect } from 'react';
+/**
+ * File name: App.js
+ * Purpose: Main application component that handles routing and authentication.
+ * Provides the structure for the MoodEats application.
+ *
+ * @author Arshad Faraz
+ * @version 1.0.0
+ */
+import React from 'react';
 import { Routes, Route, Navigate } from 'react-router-dom';
-import axios from 'axios';
 
 // Components
 import Navbar from './components/Navbar';
@@ -25,10 +32,11 @@ import NotFound from './pages/NotFound';
 // Auth Context
 import { AuthProvider, useAuth } from './context/AuthContext';
 
-// API Service
-import { setAuthToken } from './services/api';
-
 // Protected Route Component
+/**
+ * Component that protects routes requiring authentication
+ * Redirects to login page if user is not authenticated
+ */
 const ProtectedRoute = ({ children }) => {
   const { isAuthenticated, loading } = useAuth();
   
@@ -44,6 +52,10 @@ const ProtectedRoute = ({ children }) => {
 };
 
 // Admin Route Component
+/**
+ * Component that protects routes requiring admin privileges
+ * Redirects to dashboard if user is not an admin
+ */
 const AdminRoute = ({ children }) => {
   const { isAuthenticated, user, loading } = useAuth();
   
@@ -58,6 +70,9 @@ const AdminRoute = ({ children }) => {
   return children;
 };
 
+/**
+ * Main application content component with routing configuration
+ */
 function AppContent() {
   return (
     <div className="min-h-screen flex flex-col">
@@ -132,6 +147,9 @@ function AppContent() {
   );
 }
 
+/**
+ * Root App component that wraps the application with the AuthProvider
+ */
 function App() {
   return (
     <AuthProvider>

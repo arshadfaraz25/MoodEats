@@ -1,3 +1,11 @@
+"""
+File name: mood_log.py
+Purpose: Defines the MoodLog model for tracking user mood entries in the MoodEats application.
+         Used for mood-based meal recommendations and user history tracking.
+
+@author Arshad Faraz
+@version 1.0.0
+"""
 from datetime import datetime
 from bson import ObjectId
 

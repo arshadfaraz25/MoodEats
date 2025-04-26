@@ -1,3 +1,11 @@
+"""
+File name: generate_feedback.py
+Purpose: Generates realistic sample feedback data for meals in the MoodEats database.
+         Creates ratings and comments to simulate user interactions.
+
+@author Arshad Faraz
+@version 1.0.0
+"""
 import os
 import sys
 import random

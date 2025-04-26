@@ -1,0 +1,11 @@
+_id,address,allergies,calorie_goal,cuisines,dietary_restrictions,favorite_meals,preferred_cuisines,user_id
+67e5a8f6d27a5f1dae615a0c,11,"[""aa""]",1,,"[""Vegetarian"", ""Pescatarian""]","[""67e5af4b4344fe1865108e21""]","[""Italian"", ""American""]",67e5a8f4d27a5f1dae615a0b
+67e5a9b8d27a5f1dae615a16,11,[],1,,"[""Vegetarian"", ""Low-Fat""]",[],"[""Italian"", ""Middle Eastern""]",67e5a9b7d27a5f1dae615a15
+67e5b0744df630adcc814f8b,,[],,,"[""Vegetarian"", ""Low-Carb""]","[""67e5af4a4344fe1865108e1b""]",[],67e5b0734df630adcc814f8a
+67e5b21556f4851a8b7f5ec3,11,[],11,"[""Italian"", ""Middle Eastern""]","[""Vegetarian"", ""Low-Carb"", ""Dairy-Free"", ""Low-Fat""]","[""67e5af4a4344fe1865108e1b"", ""67e5af4b4344fe1865108e21"", ""67e5af4b4344fe1865108e22"", ""67e5af4a4344fe1865108e1d""]","[""Italian"", ""Middle Eastern""]",67e5b21456f4851a8b7f5ec2
+67e5b44727a9382198557541,11,"[""11""]",1,"[""American"", ""Thai""]","[""Pescatarian"", ""Paleo""]","[""67e5af4a4344fe1865108e1b"", ""67e5af4b4344fe1865108e22""]",,67e5b44627a9382198557540
+67e5c07f8aab1c8d5f8d7b0a,,[],,[],[],"[""67e5af4a4344fe1865108e1b""]",,67e5af4b4344fe1865108e25
+67e5c62b36dbe347c8bdff8a,11,"[""2""]",1,"[""Chinese"", ""Japanese"", ""Mediterranean""]","[""Keto"", ""Vegan""]","[""67e5af4b4344fe1865108e21"", ""67e5af4b4344fe1865108e1f"", ""67e5af4b4344fe1865108e23""]",,67e5c62a36dbe347c8bdff89
+67e5ee678a218514ebf74c96,111,[],10,"[""Italian"", ""Japanese"", ""American""]","[""Vegetarian"", ""Pescatarian"", ""Keto""]","[""67e5af4b4344fe1865108e21""]",,67e5ee658a218514ebf74c95
+67e6c4f472a12e9d20afb833,772,[],11,"[""Italian"", ""American""]","[""Vegetarian"", ""Pescatarian""]","[""67e5af4b4344fe1865108e21""]",,67e6c4f372a12e9d20afb832
+67f2b1e5f2b311809b4b75ea,,[],2,"[""Mexican"", ""Thai"", ""American""]","[""Gluten-Free"", ""Paleo"", ""Pescatarian""]",[],,67f2b1e4f2b311809b4b75e9

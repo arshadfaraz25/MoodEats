@@ -1,3 +1,11 @@
+"""
+File name: load_sample_data.py
+Purpose: Script to load sample data into the MoodEats MongoDB database.
+         Creates users, meals, mood logs, and user favorites for testing.
+
+@author Arshad Faraz
+@version 1.0.0
+"""
 import json
 import os
 import sys
@@ -17,7 +25,9 @@ client = MongoClient('localhost', 27017)
 db = client.moodeats
 
 def clear_collections():
-    """Clear all collections in the database"""
+    """
+    Clear all collections in the database
+    """
     print("Clearing existing collections...")
     db.users.delete_many({})
     db.meals.delete_many({})
@@ -25,7 +35,9 @@ def clear_collections():
     print("Collections cleared.")
 
 def load_sample_meals():
-    """Load sample meals from JSON file"""
+    """
+    Load sample meals from JSON file
+    """
     print("Loading sample meals...")
     
     # Read meals from JSON file
@@ -47,7 +59,9 @@ def load_sample_meals():
     print(f"Loaded {len(meals)} sample meals.")
 
 def create_sample_users():
-    """Create sample users"""
+    """
+    Create sample users
+    """
     print("Creating sample users...")
     
     # Create admin user
@@ -108,7 +122,9 @@ def create_sample_users():
     return user_ids
 
 def create_sample_mood_logs(user_ids):
-    """Create sample mood logs for users"""
+    """
+    Create sample mood logs for users
+    """
     print("Creating sample mood logs...")
     
     # Available moods
@@ -157,7 +173,9 @@ def create_sample_mood_logs(user_ids):
     print(f"Created {total_logs} sample mood logs.")
 
 def create_user_favorites(user_ids):
-    """Add favorite meals for users"""
+    """
+    Add favorite meals for users
+    """
     print("Adding favorite meals for users...")
     
     # Get all meal IDs
@@ -178,7 +196,9 @@ def create_user_favorites(user_ids):
     print(f"Added favorites for {len(user_ids)} users.")
 
 def main():
-    """Main function to load all sample data"""
+    """
+    Main function to load all sample data
+    """
     # Change to the directory where this script is located
     os.chdir(os.path.dirname(os.path.abspath(__file__)))
     

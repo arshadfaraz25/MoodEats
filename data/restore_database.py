@@ -1,3 +1,11 @@
+"""
+File name: restore_database.py
+Purpose: Restores the MoodEats MongoDB database from a backup.
+         Allows selection of backup directories and converts data types appropriately.
+
+@author Arshad Faraz
+@version 1.0.0
+"""
 import os
 import sys
 import json

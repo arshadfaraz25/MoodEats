@@ -2,6 +2,9 @@
 
 This directory contains sample data and scripts to populate the MongoDB database for the MoodEats application.
 
+**Author:** Arshad Faraz  
+**Version:** 1.0.0
+
 ## Files
 
 - `sample_meals.json` - Contains sample meal data with recipes, nutritional information, and mood tags

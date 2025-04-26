@@ -27,7 +27,7 @@ MoodEats is a web application designed to enhance meal planning by recommending 
 
 1. Clone the repository
 ```
-git clone https://github.com/arshadfaraz25/MoodEats.git
+git clone 
 cd moodeats
 ```
 

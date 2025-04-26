@@ -1,3 +1,11 @@
+"""
+File name: load_all_data.py
+Purpose: Master script to load all sample data for the MoodEats application.
+         Sequentially runs multiple data loading scripts with progress tracking.
+
+@author Arshad Faraz
+@version 1.0.0
+"""
 import os
 import sys
 import subprocess

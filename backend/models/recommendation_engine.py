@@ -1,3 +1,12 @@
+"""
+File name: recommendation_engine.py
+Purpose: Core recommendation engine for MoodEats that processes user mood, 
+         preferences, and history to generate personalized meal suggestions.
+
+@author Arshad Faraz
+@version 1.0.0
+"""
+
 class RecommendationEngine:
     """
     RecommendationEngine class for processing user mood, preferences, and history 

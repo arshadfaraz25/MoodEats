@@ -1,3 +1,11 @@
+"""
+File name: feedback.py
+Purpose: Defines the Feedback model for user ratings and comments on meals.
+         Used to improve recommendations and track user satisfaction.
+
+@author Arshad Faraz
+@version 1.0.0
+"""
 from datetime import datetime
 from bson import ObjectId
 

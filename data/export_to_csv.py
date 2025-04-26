@@ -1,3 +1,11 @@
+"""
+File name: export_to_csv.py
+Purpose: Exports MoodEats MongoDB database collections to CSV format.
+         Creates a timestamped directory with CSV files for data analysis.
+
+@author Arshad Faraz
+@version 1.0.0
+"""
 import os
 import sys
 import csv

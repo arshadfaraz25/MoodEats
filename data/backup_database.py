@@ -1,3 +1,11 @@
+"""
+File name: backup_database.py
+Purpose: Creates a backup of the MoodEats MongoDB database.
+         Exports all collections to JSON files in a timestamped directory.
+
+@author Arshad Faraz
+@version 1.0.0
+"""
 import os
 import sys
 import subprocess

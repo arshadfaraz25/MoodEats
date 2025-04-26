@@ -1,3 +1,11 @@
+"""
+File name: user_routes.py
+Purpose: API routes for user authentication, profile management, and user preferences.
+         Handles user registration, login, profile updates, and favorites management.
+
+@author Arshad Faraz
+@version 1.0.0
+"""
 from flask import Blueprint, request, jsonify, session
 from werkzeug.security import generate_password_hash, check_password_hash
 from models.user import User

@@ -1,3 +1,11 @@
+"""
+File name: analyze_mood_data.py
+Purpose: Analyzes mood data from the MoodEats database to generate insights.
+         Creates visualizations and reports on mood trends, meal preferences, and user activity.
+
+@author Arshad Faraz
+@version 1.0.0
+"""
 import os
 import sys
 import json
