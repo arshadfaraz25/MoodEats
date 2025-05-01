@@ -12,7 +12,23 @@ const AdminUsers = () => {
       try {
         setLoading(true);
         const response = await adminAPI.getUsers();
-        setUsers(response.data);
+        console.log('User response:', response);
+        
+        // Handle both parsed JSON and string responses
+        let userData = response.data;
+        
+        // If the response is a string (raw JSON), parse it
+        if (typeof response.data === 'string') {
+          try {
+            userData = JSON.parse(response.data);
+            console.log('Parsed user data from string:', userData);
+          } catch (parseErr) {
+            console.error('Error parsing user data:', parseErr);
+            throw new Error('Failed to parse user data');
+          }
+        }
+        
+        setUsers(userData);
         setError(null);
       } catch (err) {
         console.error('Error fetching users:', err);

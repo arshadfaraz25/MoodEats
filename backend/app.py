@@ -6,7 +6,7 @@ Handles API routes, database connection, and server configuration.
 @author Arshad Faraz
 @version 1.0.0
 """
-from flask import Flask, jsonify
+from flask import Flask, jsonify, session
 from flask_cors import CORS
 from dotenv import load_dotenv
 import os
@@ -21,13 +21,16 @@ load_dotenv()
 # Initialize Flask app
 app = Flask(__name__)
 app.secret_key = os.environ.get('SECRET_KEY', 'dev_key_for_moodeats')
+app.config['SESSION_TYPE'] = 'filesystem'
+app.config['SESSION_PERMANENT'] = True
+app.config['PERMANENT_SESSION_LIFETIME'] = datetime.timedelta(days=7)
 
 # Configure MongoDB
 app.config["MONGO_URI"] = os.environ.get('MONGO_URI', 'mongodb://localhost:27017/moodeats')
 mongo.init_app(app)
 
 # Enable CORS
-CORS(app, supports_credentials=True)
+CORS(app, supports_credentials=True, origins=["http://localhost:3000"], allow_headers=["Content-Type", "Authorization"])
 
 # Custom JSON encoder to handle ObjectId and datetime
 class MongoJSONEncoder(json.JSONEncoder):

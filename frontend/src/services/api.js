@@ -2,7 +2,7 @@ import axios from 'axios';
 
 // Create axios instance with base URL
 const api = axios.create({
-  baseURL: '/api',
+  baseURL: 'http://localhost:5000/api',
   withCredentials: true,
   headers: {
     'Content-Type': 'application/json'
@@ -54,6 +54,7 @@ export const adminAPI = {
   getUsers: (limit = 100) => api.get('/admin/users', { params: { limit } }),
   getUser: (id) => api.get(`/admin/users/${id}`),
   deleteUser: (id) => api.delete(`/admin/users/${id}`),
+  getMeals: () => api.get('/admin/meals'),
   createMeal: (mealData) => api.post('/admin/meals', mealData),
   updateMeal: (id, mealData) => api.put(`/admin/meals/${id}`, mealData),
   deleteMeal: (id) => api.delete(`/admin/meals/${id}`),
@@ -62,9 +63,9 @@ export const adminAPI = {
       'Content-Type': 'multipart/form-data'
     }
   }),
-  getUserAnalytics: () => api.get('/admin/analytics/users'),
-  getMealAnalytics: () => api.get('/admin/analytics/meals'),
-  getMoodAnalytics: () => api.get('/admin/analytics/moods')
+  getUserAnalytics: (timeRange = 'week') => api.get('/admin/analytics/users', { params: { time_range: timeRange } }),
+  getMealAnalytics: (timeRange = 'week') => api.get('/admin/analytics/meals', { params: { time_range: timeRange } }),
+  getMoodAnalytics: (timeRange = 'week') => api.get('/admin/analytics/moods', { params: { time_range: timeRange } })
 };
 
 export default api;

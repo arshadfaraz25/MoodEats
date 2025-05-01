@@ -45,31 +45,49 @@ const MoodHistory = ({ limit = 10 }) => {
 
   // Function to deduplicate mood entries
   const deduplicateMoodEntries = (entries) => {
-    // Group entries by exact timestamp to detect true duplicates
-    const groupedByTimestamp = {};
+    // Group entries by date (YYYY-MM-DD) and time (HH:MM) to catch near-duplicates
+    const groupedByDateTime = {};
     
     entries.forEach(entry => {
-      const timestamp = entry.timestamp;
+      const date = new Date(entry.timestamp);
+      // Create a key using date and hour/minute to group entries that are very close in time
+      // This will catch duplicates even if the timestamps are slightly different
+      const dateKey = `${date.toISOString().split('T')[0]}_${date.getHours()}_${date.getMinutes()}`;
       
-      if (!groupedByTimestamp[timestamp]) {
-        groupedByTimestamp[timestamp] = [];
+      if (!groupedByDateTime[dateKey]) {
+        groupedByDateTime[dateKey] = [];
       }
       
       // Add to the group
-      groupedByTimestamp[timestamp].push(entry);
+      groupedByDateTime[dateKey].push(entry);
     });
     
     // For each group, keep only one entry (the one with notes if available)
     const deduplicated = [];
     
-    Object.values(groupedByTimestamp).forEach(group => {
+    Object.values(groupedByDateTime).forEach(group => {
       if (group.length === 1) {
         // Only one entry, no need to deduplicate
         deduplicated.push(group[0]);
       } else {
-        // Multiple entries with same timestamp, prioritize the one with notes
-        const entryWithNotes = group.find(entry => entry.notes);
-        deduplicated.push(entryWithNotes || group[0]);
+        // Multiple entries with same date/time, prioritize the one with notes
+        const entryWithNotes = group.find(entry => entry.notes && entry.notes.trim() !== '');
+        
+        // If multiple entries have the same mood, keep only one
+        const uniqueMoods = [...new Set(group.map(entry => entry.mood))];
+        
+        if (uniqueMoods.length === 1) {
+          // All entries have the same mood, just keep one (preferably with notes)
+          deduplicated.push(entryWithNotes || group[0]);
+        } else {
+          // Entries have different moods, keep one entry per unique mood
+          uniqueMoods.forEach(mood => {
+            const entriesWithMood = group.filter(entry => entry.mood === mood);
+            // For each mood, prioritize entry with notes
+            const bestEntry = entriesWithMood.find(entry => entry.notes && entry.notes.trim() !== '') || entriesWithMood[0];
+            deduplicated.push(bestEntry);
+          });
+        }
       }
     });
     

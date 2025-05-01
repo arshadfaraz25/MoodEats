@@ -1,10 +1,114 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
+import { adminAPI } from '../../services/api';
 
 const AdminDashboard = () => {
+  const [stats, setStats] = useState({
+    totalUsers: 0,
+    totalMeals: 0,
+    moodLogsToday: 0
+  });
+  const [loading, setLoading] = useState(true);
+  const [error, setError] = useState(null);
+
+  useEffect(() => {
+    const fetchStats = async () => {
+      try {
+        setLoading(true);
+        console.log('Fetching admin stats...');
+        
+        // Try a simpler approach - fetch each stat individually with error handling
+        let userCount = 0;
+        let mealCount = 0;
+        let moodLogCount = 0;
+        
+        try {
+          console.log('Fetching user analytics...');
+          const userAnalytics = await adminAPI.getUserAnalytics();
+          console.log('User analytics response:', userAnalytics);
+          userCount = userAnalytics.data.total_users || 0;
+        } catch (err) {
+          console.error('Error fetching user analytics:', err);
+        }
+        
+        try {
+          console.log('Fetching meal analytics...');
+          const mealAnalytics = await adminAPI.getMealAnalytics();
+          console.log('Meal analytics response:', mealAnalytics);
+          console.log('Meal analytics data type:', typeof mealAnalytics.data);
+          console.log('Meal analytics data content:', JSON.stringify(mealAnalytics.data, null, 2));
+          console.log('Total meals value:', mealAnalytics.data.total_meals);
+          console.log('Total meals type:', typeof mealAnalytics.data.total_meals);
+          
+          // Ensure we're getting a number and not a string or other type
+          // Handle both cases: if data is already parsed or if it's a string
+          let mealData = mealAnalytics.data;
+          
+          // If the response is a string (raw JSON), parse it
+          if (typeof mealAnalytics.data === 'string') {
+            try {
+              mealData = JSON.parse(mealAnalytics.data);
+              console.log('Parsed meal data from string:', mealData);
+            } catch (parseErr) {
+              console.error('Error parsing meal data:', parseErr);
+            }
+          }
+          
+          // Extract and convert the total_meals value
+          mealCount = parseInt(mealData.total_meals || 0);
+          console.log('Final meal count used:', mealCount);
+        } catch (err) {
+          console.error('Error fetching meal analytics:', err);
+        }
+        
+        try {
+          console.log('Fetching mood analytics...');
+          const moodAnalytics = await adminAPI.getMoodAnalytics();
+          console.log('Mood analytics response:', moodAnalytics);
+          
+          // Use the today_logs_count directly from the backend response
+          moodLogCount = moodAnalytics.data.today_logs_count || 0;
+          console.log(`Today's mood logs count: ${moodLogCount}`);
+        } catch (err) {
+          console.error('Error fetching mood analytics:', err);
+        }
+        
+        setStats({
+          totalUsers: userCount,
+          totalMeals: mealCount,
+          moodLogsToday: moodLogCount
+        });
+        
+        setError(null);
+      } catch (err) {
+        console.error('Error fetching admin stats:', err);
+        setError(`Failed to load statistics: ${err.message || 'Unknown error'}`);
+      } finally {
+        setLoading(false);
+      }
+    };
+    
+    fetchStats();
+  }, []);
+
   return (
     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
       <h1 className="text-3xl font-bold text-brand-dark mb-8">Admin Dashboard</h1>
+      
+      {error && (
+        <div className="mb-6 bg-red-50 border-l-4 border-red-400 p-4">
+          <div className="flex">
+            <div className="flex-shrink-0">
+              <svg className="h-5 w-5 text-red-400" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
+                <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zM8.707 7.293a1 1 0 00-1.414 1.414L8.586 10l-1.293 1.293a1 1 0 101.414 1.414L10 11.414l1.293 1.293a1 1 0 001.414-1.414L11.414 10l1.293-1.293a1 1 0 00-1.414-1.414L10 8.586 8.707 7.293z" clipRule="evenodd" />
+              </svg>
+            </div>
+            <div className="ml-3">
+              <p className="text-sm text-red-700">{error}</p>
+            </div>
+          </div>
+        </div>
+      )}
       
       <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
         <Link to="/admin/users" className="bg-white rounded-xl shadow-md p-6 hover:shadow-lg transition-shadow">
@@ -40,20 +144,26 @@ const AdminDashboard = () => {
       
       <div className="mt-12 bg-white rounded-xl shadow-md p-6">
         <h2 className="text-xl font-semibold mb-4">Quick Stats</h2>
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-          <div className="p-4 bg-gray-50 rounded-lg">
-            <p className="text-sm text-gray-500">Total Users</p>
-            <p className="text-2xl font-bold">0</p>
+        {loading ? (
+          <div className="flex justify-center items-center h-24">
+            <div className="animate-spin rounded-full h-8 w-8 border-t-2 border-b-2 border-brand-primary"></div>
           </div>
-          <div className="p-4 bg-gray-50 rounded-lg">
-            <p className="text-sm text-gray-500">Total Meals</p>
-            <p className="text-2xl font-bold">0</p>
+        ) : (
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+            <div className="p-4 bg-gray-50 rounded-lg">
+              <p className="text-sm text-gray-500">Total Users</p>
+              <p className="text-2xl font-bold">{stats.totalUsers}</p>
+            </div>
+            <div className="p-4 bg-gray-50 rounded-lg">
+              <p className="text-sm text-gray-500">Total Meals</p>
+              <p className="text-2xl font-bold">{stats.totalMeals}</p>
+            </div>
+            <div className="p-4 bg-gray-50 rounded-lg">
+              <p className="text-sm text-gray-500">Mood Logs Today</p>
+              <p className="text-2xl font-bold">{stats.moodLogsToday}</p>
+            </div>
           </div>
-          <div className="p-4 bg-gray-50 rounded-lg">
-            <p className="text-sm text-gray-500">Mood Logs Today</p>
-            <p className="text-2xl font-bold">0</p>
-          </div>
-        </div>
+        )}
       </div>
     </div>
   );
